@@ -25,6 +25,7 @@ public class CourseController {
     public Message findAll(){
         List<Course> list = courseService.findAll();
         System.out.println();
+        System.out.println();
         return MessageUtil.success("success",list);
     }
 
